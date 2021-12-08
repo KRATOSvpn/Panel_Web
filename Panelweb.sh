@@ -54,10 +54,10 @@ panel_v15_2 () {
 wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Panel_Web/panel_v15_2/ocspanel > /dev/null 2>&1; chmod +x ocspanel; ./ocspanel
 }
 panel_v20 () {
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Panel_Web/panel_v20/install > /dev/null 2>&1; chmod 777 install* && ./install*
+wget https://raw.githubusercontent.com/KRATOSvpn/panel_v20/main/install > /dev/null 2>&1; chmod 777 install* && ./install*
 }
 panel_v20_mod () {
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Panel_Web/panel_v20_mod/install > /dev/null 2>&1; chmod +x install; ./install
+wget https://raw.githubusercontent.com/KRATOSvpn/panel_v20_mod/main/install > /dev/null 2>&1; chmod +x install; ./install
 }
 panel_v23 () {
 wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Panel_Web/panel_v23/install > /dev/null 2>&1; chmod +x install; ./install
@@ -66,7 +66,7 @@ panel_v23_2 () {
 wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Panel_Web/panel_v23_2/install > /dev/null 2>&1; chmod +x install; ./install
 }
 panel_v25 () {
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Panel_Web/panel_v25/install > /dev/null 2>&1; chmod +x install; ./install
+wget https://raw.githubusercontent.com/KRATOSvpn/panel_v25/main/install > /dev/null 2>&1; chmod +x install; ./install
 }
 #UPDATE VIP-VPS v23 a v25
 panel_update2325 () {

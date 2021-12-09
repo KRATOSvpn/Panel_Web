@@ -90,7 +90,7 @@ rm -rf $HOME/sshplus.sql*
 rm -rf $HOME/bd-v15.sql*
 rm -rf $HOME/ssh.sql*
 rm -rf $HOME/plus.sql*
-rm -rf $HOME/Panelweb.sh* > /dev/null 2>&1; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Panel_Web/Panelweb.sh > /dev/null 2>&1
+rm -rf $HOME/Panelweb.sh* > /dev/null 2>&1; wget https://raw.githubusercontent.com/KRATOSvpn/Panel_Web/main/Panelweb.sh > /dev/null 2>&1
 echo ""
 echo -e "\033[1;33m CLEAN FOLDER COM SUCESSO -\033[1;32m OK !\033[1;37m"
 sleep 4s
@@ -124,7 +124,7 @@ fun_bar "apt-get upgrade -y"
 fun_att () {
     service ssh restart > /dev/null 2>&1
     rm -rf $HOME/Panelweb.sh* > /dev/null 2>&1
-    wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Panel_Web/Panelweb.sh > /dev/null 2>&1
+    wget https://raw.githubusercontent.com/KRATOSvpn/Panel_Web/main/Panelweb.sh > /dev/null 2>&1
 }
 fun_bar 'fun_att'
 echo ""
